@@ -1,10 +1,9 @@
-class Checking {
-    constructor(amount) {
-        this.balance = amount; // property
-        this.deposit = deposit; // function
-        this.withdraw = withdraw; // function
-        this.toString = toString; // function
-    }
+// constructor function for Checking object
+function Checking(amount){
+    this.balance = amount; // property
+    this.deposit = deposit; // function
+    this.withdraw = withdraw; // function
+    this.toString = toString; // function
 }
 
 function deposit(amount){
